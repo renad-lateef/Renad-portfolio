@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Renad | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="page2.css" />
+</head>
+
+<body>
+  <!-- Progress bar -->
+  <div class="progress"></div>
+
+  <!-- Nav -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="#home">
+        <span class="brand__logo">R</span>
+        <span class="brand__txt">
+          <b>Renad</b>
+          <small>Software Engineer</small>
+        </span>
+      </a>
+
+      <nav class="nav__links" id="navLinks">
+        <button class="nav__link" data-go="about">About</button>
+        <button class="nav__link" data-go="skills">Skills</button>
+        <button class="nav__link" data-go="projects">Projects</button>
+        <button class="nav__link" data-go="contact">Contact</button>
+        <a class="btn btn--primary" href="mailto:renadlateef340@gmail.com">Hire Me</a>
+      </nav>
+
+      <button class="nav__menu" id="menuBtn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+
+    <div class="nav__mobile" id="mobileMenu">
+      <button class="nav__mLink" data-go="home">Home</button>
+      <button class="nav__mLink" data-go="about">About</button>
+      <button class="nav__mLink" data-go="skills">Skills</button>
+      <button class="nav__mLink" data-go="projects">Projects</button>
+      <button class="nav__mLink" data-go="contact">Contact</button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero__bg"></div>
+    <div class="container hero__inner">
+      <div class="hero__left reveal">
+        <div class="pill">
+          <span class="dot"></span>
+          Available for freelance • Cairo
+        </div>
+
+        <h1 class="hero__title">
+          Building <span class="gold">Secure</span> & Scalable
+          Web Applications
+        </h1>
+
+        <p class="hero__desc">
+          I’m <b>Renad</b> — Software Engineer / Full-Stack Web Developer.
+          Skilled in <b>JavaScript</b>, <b>Python</b>, and <b>PHP</b>.
+          Delivered <b>120+</b> web projects and built an <b>encryption application</b>.
+        </p>
+
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#projects">View Projects</a>
+          <a class="btn btn--ghost" href="#contact">Contact</a>
+        </div>
+
+        <div class="hero__chips">
+          <span class="chip"><i class="fa-solid fa-location-dot"></i> Cairo</span>
+          <span class="chip"><i class="fa-solid fa-envelope"></i> renadlateef340@gmail.com</span>
+          <span class="chip"><i class="fa-solid fa-phone"></i> 01274691650</span>
+        </div>
+      </div>
+
+      <div class="hero__right reveal">
+        <div class="tilt card">
+          <div class="card__top">
+            <b>Renad — Portfolio</b>
+            <small>Classic • Premium</small>
+          </div>
+
+          <div class="grid2">
+            <div class="mini"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+            <div class="mini"><i class="fa-brands fa-python"></i><span>Python</span></div>
+            <div class="mini"><i class="fa-brands fa-php"></i><span>PHP</span></div>
+            <div class="mini"><i class="fa-solid fa-database"></i><span>Database</span></div>
+            <div class="mini"><i class="fa-solid fa-lock"></i><span>Encryption</span></div>
+            <div class="mini"><i class="fa-solid fa-code"></i><span>Full-Stack</span></div>
+          </div>
+
+          <div class="signature">
+            <b>Signature Focus</b>
+            <p>Performance optimization, API integration, secure protocols, and polished UI.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="title reveal">
+        <span class="label">About</span>
+        <h2>Elegant engineering, delivered with real results.</h2>
+        <p>I build web applications that are fast, secure, and user-friendly—combining classic design with modern engineering.</p>
+      </div>
+
+      <div class="cards3">
+        <div class="tilt card reveal">
+          <h3>Full-Stack Freelance</h3>
+          <p>Delivered full web solutions integrating UI with backend APIs using JavaScript, PHP, and Python.</p>
+          <div class="line"></div>
+        </div>
+        <div class="tilt card reveal">
+          <h3>Performance & Scale</h3>
+          <p>Optimized queries, caching and clean code—supporting up to 10,000 concurrent users.</p>
+          <div class="line"></div>
+        </div>
+        <div class="tilt card reveal">
+          <h3>Security Mindset</h3>
+          <p>Built encryption solutions with strong data protection principles and zero security breaches.</p>
+          <div class="line"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="title reveal">
+        <span class="label">Skills</span>
+        <h2>A strong toolkit for modern web development.</h2>
+        <p>From UI engineering to backend APIs and security-focused development.</p>
+      </div>
+
+      <div class="skills">
+        <div class="tilt skill reveal"><i class="fa-brands fa-html5"></i><b>HTML</b><span>Semantic layouts</span></div>
+        <div class="tilt skill reveal"><i class="fa-brands fa-css3-alt"></i><b>CSS</b><span>Classic responsive UI</span></div>
+        <div class="tilt skill reveal"><i class="fa-brands fa-js"></i><b>JavaScript</b><span>Interactive UI</span></div>
+        <div class="tilt skill reveal"><i class="fa-brands fa-php"></i><b>PHP</b><span>Backend development</span></div>
+        <div class="tilt skill reveal"><i class="fa-brands fa-python"></i><b>Python</b><span>Automation & tools</span></div>
+        <div class="tilt skill reveal"><i class="fa-solid fa-database"></i><b>Database</b><span>Integration & tuning</span></div>
+        <div class="tilt skill reveal"><i class="fa-solid fa-lock"></i><b>Security</b><span>Encryption mindset</span></div>
+        <div class="tilt skill reveal"><i class="fa-solid fa-cube"></i><b>OpenGL</b><span>Graphics basics</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="title reveal">
+        <span class="label">Projects</span>
+        <h2>Selected work</h2>
+        <p>Web platforms, automation tools, and secure encryption development.</p>
+      </div>
+
+      <div class="tabs reveal" id="tabs">
+        <button class="tab active" data-tab="All">All</button>
+        <button class="tab" data-tab="Web">Web</button>
+        <button class="tab" data-tab="Python">Python</button>
+        <button class="tab" data-tab="Security">Security</button>
+      </div>
+
+      <div class="projects" id="projectsGrid">
+        <!-- JS will render cards -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Metrics -->
+  <section class="section">
+    <div class="container">
+      <div class="title reveal">
+        <span class="label">Achievements</span>
+        <h2>Impact by numbers</h2>
+        <p>Highlights based on delivered projects and outcomes.</p>
+      </div>
+
+      <div class="metrics">
+        <div class="metric tilt reveal">
+          <b class="num" data-target="120">0</b>
+          <span>Web Projects Delivered</span>
+          <div class="line"></div>
+        </div>
+
+        <div class="metric tilt reveal">
+          <b class="num" data-target="95">0</b>
+          <span>Client Satisfaction (%)</span>
+          <div class="line"></div>
+        </div>
+
+        <div class="metric tilt reveal">
+          <b class="num" data-target="10000">0</b>
+          <span>Concurrent Users Supported</span>
+          <div class="line"></div>
+        </div>
+
+        <div class="metric tilt reveal">
+          <b class="num" data-target="999">0</b>
+          <span>Encryption Reliability (≈99.9%)</span>
+          <div class="line"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="title reveal">
+        <span class="label">Contact</span>
+        <h2>Let’s build something premium.</h2>
+        <p>Send a message and I’ll respond as soon as possible.</p>
+      </div>
+
+      <div class="contact">
+        <div class="card reveal">
+          <h3>Contact Info</h3>
+
+          <div class="info">
+            <a href="mailto:renadlateef340@gmail.com"><i class="fa-solid fa-envelope"></i> renadlateef340@gmail.com</a>
+            <a href="tel:01274691650"><i class="fa-solid fa-phone"></i> 01274691650</a>
+            <span><i class="fa-solid fa-location-dot"></i> Cairo, Egypt</span>
+          </div>
+
+          <div class="social">
+            <a class="btn btn--primary" href="#" target="_blank" rel="noreferrer">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+            <a class="btn btn--ghost" href="#" target="_blank" rel="noreferrer">
+              <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
+          </div>
+
+          <small class="muted">* Replace GitHub/LinkedIn links with your real accounts.</small>
+        </div>
+
+        <div class="card reveal">
+          <h3>Send Message</h3>
+          <form id="contactForm">
+            <input type="text" placeholder="Your name" required />
+            <input type="email" placeholder="Your email" required />
+            <textarea placeholder="Your message" required></textarea>
+            <button class="btn btn--primary" type="submit">Send</button>
+          </form>
+          <small class="muted" id="formMsg"></small>
+        </div>
+      </div>
+
+      <footer class="footer reveal">
+        © <span id="year"></span> Renad — Classic Portfolio
+      </footer>
+    </div>
+  </section>
+
+  <script src="page3.js"></script>
+</body>
+</html>
